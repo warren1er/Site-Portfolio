@@ -45,7 +45,6 @@ width: 50%;
   position: fixed;
   top: 0;
   width: 100%;
-  border: 1px solid red;
 }
 
 
@@ -65,5 +64,5 @@ margin-top: 15px;
   color: white;
 }
 .bouton a:hover{
-  color: silver; 
+  color: silver;
 }

@@ -5,6 +5,7 @@
   line-height: 1.2em;
   width: 100%;
   padding: 0;
+  margin-bottom: 100px;
 }
 
 footer{
@@ -15,6 +16,9 @@ footer{
   left: 0;
 }
 
+.compte{
+  color: silver;
+}
 
 /******************************************/
 
@@ -58,8 +62,23 @@ line-height: 1.5em;
 
 /******************************************/
 /************* portfolio ****************/
-.Port{
+.cache-info{
+  bottom: 0;
+  display: block;
+  position: absolute;
+  transition: bottom 0.7s;
+  background-color: silver;
+  opacity: 0.7;
+  width: 50%;
+  color: white;
+  height: 100px;
+  visibility: hidden;
+}
 
+figure:hover .cache-info{
+  visibility: visible;
+  overflow: hidden;
+  bottom: 400px;
 }
 
 .bouton a{
